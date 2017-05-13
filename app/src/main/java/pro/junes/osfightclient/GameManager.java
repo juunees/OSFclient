@@ -14,6 +14,7 @@ import android.widget.Toast;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -39,6 +40,7 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
     private Dot_trampoline [] dot_trampoline = new Dot_trampoline[3];
     private Dot_stair [] dot_stair = new Dot_stair[3];
     Context context;
+    Client client;
 
     private int count_step = 0;
 
@@ -48,7 +50,7 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
         String msg="connection";
         Log.i(msg,">>Client connection .....");
 
-        Client client = new Client("10.0.2.2",8080);
+         client = new Client("10.0.2.2",8080);
          client.execute();
       //  connection();
         create(33,19);
@@ -96,28 +98,16 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
 
         diffx = Math.round(e2.getX()) - Math.round(e1.getX());
         diffy = Math.round(e2.getY()) - Math.round(e1.getY());
-
         //в какую сторону был сделан мах
 
-        if(Math.abs(diffx) > Math.abs(diffy)){
-
-            diffx = diffx > 0 ? 1 : -1;
-            diffy = 0;
-
-        }else{
-            diffy = diffy > 0 ? 1 : -1;
-            diffx = 0;
-        }
-
+        if(Math.abs(diffx) > Math.abs(diffy)){diffx = diffx > 0 ? 1 : -1;diffy = 0;
+        }else{diffy = diffy > 0 ? 1 : -1;diffx = 0;}
         int stepX =  player.getX(), stepY = player.getY();
         boolean b_trampline = true;
         while (maze.canPlayerGoTo(stepX+diffx,stepY+diffy) && b_trampline){
-
             stepX += diffx;
             stepY += diffy;
             // Point p = new Point(stepX,stepY);
-
-
             for(int i = 0 ; i < 3 ; i++) {
                 if((stepX == dot_trampoline[i].getPoint().x) && (stepY == dot_trampoline[i].getPoint().y)) { b_trampline = false;}
             }  // проверка на батут
@@ -143,8 +133,11 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
         //player.move(newX,newY);
 
         player.goTo(stepX,stepY);
-        System.out.println("i go to x y");
+
+        client.sendMsg("1:"+"X:"+stepX+",Y:"+stepY);
         count_step ++;
+
+        player2.goTo(10,10);
 
         //  ------ супер ДИНАМИЧЕСКИЙ ЛАБИРИНТ
         // if(count_step == 10) {create(maze.getSize_x(),maze.getSize_y()); count_step =0; }
@@ -219,7 +212,6 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
         );
 
     }
-
 
 
 

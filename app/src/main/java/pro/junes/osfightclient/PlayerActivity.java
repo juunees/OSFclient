@@ -37,10 +37,10 @@ public class PlayerActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        String msg="";
-        Log.i(msg,">>Client connection .....");
-        Client client = new Client("10.0.2.2",8080);
-         client.execute();
+      //  String msg="";
+      //  Log.i(msg,">>Client connection .....");
+       // Client client = new Client("10.0.2.2",8080);
+        // client.execute();
 
         // создать клиента
 
