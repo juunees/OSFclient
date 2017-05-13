@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-7c5083b33f5dd573ba8b984a6b6b8f35ecd83d00.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-6aff475b750c8dbb0cc36925af7c1281c5c3160d.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d849b467124594ac70cc7ecfe9a491bdd42626dc.jar" />
+    </item>
+    <item
+        jar="/home/junes/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.0.1-961afa35f484960ee15f01f31f2c983004580623.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-701c5864d5ca0ad1b9afbf713522bdaef951868d.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-40d233c26697ef02df9fec14e6ffafab2f9b35b7.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-4688b471e136239af399335c600e1dd3875e014a.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/libs/postgresql-42.0.0.jar"
+        revision="25.0.0"
+        sha1="938ede0cdf862cc4eaba5023a86254783af1d261">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/postgresql-42.0.0-a4cd2ec5a35b1aeb3171591160409e783286bbf1.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e5b7d6cee413c1e2d31dd9e7e65dc9bcb4584205.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b3ae7e7a77cc3c16eb3b2de64346b7ce577aea08.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e39705e6a9f8b5f2821a443a837016f8f438a20f.jar" />
+    </item>
+    <item
+        jar="/home/junes/Android/Sdk/platforms/android-25/android.jar"
+        revision="25.0.0"
+        sha1="ee6109bffb77e2a8508a9faf3eceab577ca73709">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-2493036e417a549622476c3af1555fd3e2be1810.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-2d1b6d51a5fd39e398e06e8a86df0d3988ae3e28.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-e36dbcd0edd45d6b9167b0ea47eed3852a869e12.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-cc5e9749ba2136432027df17ccc537fe557f329b.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-863a8f0b53b90804d6fe8c26067bd3738f3f9c28.jar" />
+    </item>
+    <item
+        jar="/home/junes/Android/Sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="f3d8ef56b30e630eb84718ee1b10a38b38c057c0">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-18eb556c2969f41f1ea36ada1ef55e307a541c66.jar" />
+    </item>
+    <item
+        jar="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/junes/AndroidStudioProjects/OSFightClient/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f4bbc4ae109c23168bbfb6904db1ed77cc1df6c3.jar" />
+    </item>
+
+</items>

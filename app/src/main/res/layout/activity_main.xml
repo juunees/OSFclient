@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="pro.junes.osfightclient.MainActivity">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/buttonPlay"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/playbutton"
+        android:background="@drawable/playbutton" />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/buttonStatistic"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/statistic1"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/junes/OSFightClient/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a6616e59fc38fccf5d040ee5e8eb3c5088d4daa">
+        <dex dex="/home/junes/OSFightClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b36bbfde43e4eba375766c5338cd0b09cb9f7171/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/junes/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/junes/OSFightClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d026bee7d2c86171d8f6bd23611bd8b4a91e31a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/junes/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/junes/OSFightClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b965b972d39b426cf2cfd9f246888dfcf0aa555a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/junes/OSFightClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/junes/OSFightClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_fe761590028fbc9ea64b238ad1ff24325db16f36/classes.dex" />
+    </item>
+
+</items>

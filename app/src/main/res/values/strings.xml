@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OSFight</string>
+    <string name="btn_play">Play!</string>
+    <string name="btn_statistic">Статистика </string>
+    <string name="btn_statOS">Операционная система </string>
+    <string name="btn_statCity">Город</string>
+</resources>
