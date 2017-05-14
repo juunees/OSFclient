@@ -34,6 +34,7 @@ public class Client extends AsyncTask<Object, Object, String> {
     Socket socket;
     InputStream sin;
     OutputStream sout;
+    String who_i_am = "null";
 
 
 
@@ -42,39 +43,6 @@ public class Client extends AsyncTask<Object, Object, String> {
         dstPort = port;
     }
 
-    public void createConnection() {
-
-        try {
-
-            DataInputStream in;
-            DataOutputStream out;
-
-            System.out.println("Any of you heard of a socket with IP address " + dstAddress + " and port " + dstPort + "?");
-            socket = new Socket(dstAddress, dstPort); // создаем сокет используя IP-адрес и порт сервера.
-            System.out.println("Yes! I just got hold of the program.");
-
-            sin = socket.getInputStream();
-            sout = socket.getOutputStream();
-            in = new DataInputStream(sin);
-            out = new DataOutputStream(sout);
-
-            String line = "player1";
-
-                System.out.println("Sending >> " + line + " to the server");
-                out.writeUTF(line); // отсылаем введенную строку текста серверу.
-                out.flush(); // заставляем поток закончить передачу данных.
-                line = in.readUTF(); // ждем пока сервер отошлет строку текста.
-                System.out.println(">> Server sent this :  " + line);
-
-
-
-
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
 
     public void sendMsg(String msg){
@@ -101,6 +69,37 @@ public class Client extends AsyncTask<Object, Object, String> {
     }
 
 
+    public int[] getOpponentspet(int count){
+
+        int [] step = new int[2];
+
+        int x_diff = 1*count,y_diff=1*count;
+
+       /* DataInputStream in = new DataInputStream(sin);;
+        DataOutputStream out =  new DataOutputStream(sout);
+
+        String answer= String.valueOf(msg);
+
+        try {
+            System.out.println("Sending >> " + answer + " to the server");
+            out.writeUTF(answer);
+            out.flush(); // заставляем поток закончить передачу данных.
+            //  String fromserver = in.readUTF();// ждем пока сервер отошлет строку текста.
+            //  System.out.println(">> Server sent this :  " + fromserver);
+
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+
+         step[0] = x_diff;
+          step[1] = y_diff;
+         return step;
+
+    }
+
+
 
    @Override
 
@@ -113,7 +112,6 @@ public class Client extends AsyncTask<Object, Object, String> {
             System.out.println("Any of you heard of a socket with IP address " + dstAddress + " and port " + dstPort + "?");
              socket = new Socket(dstAddress, dstPort); // создаем сокет используя IP-адрес и порт сервера.
             System.out.println("Yes! I just got hold of the program.");
-
             sin = socket.getInputStream();
             sout = socket.getOutputStream();
 
@@ -128,6 +126,8 @@ public class Client extends AsyncTask<Object, Object, String> {
             out.flush(); // заставляем поток закончить передачу данных.
             from_server = in.readUTF(); // ждем пока сервер отошлет строку текста.
             System.out.println(">>Server said: " + from_server);
+
+            who_i_am =from_server.substring(3);
 
 
         } catch (UnknownHostException e) {

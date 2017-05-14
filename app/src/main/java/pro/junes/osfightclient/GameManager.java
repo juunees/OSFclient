@@ -42,7 +42,7 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
     Context context;
     Client client;
 
-    private int count_step = 0;
+    private int count_step = 1;
 
 
     public GameManager(Context context){
@@ -134,10 +134,12 @@ public class GameManager extends GestureDetector.SimpleOnGestureListener{
 
         player.goTo(stepX,stepY);
 
-        client.sendMsg("1:"+"X:"+stepX+",Y:"+stepY);
-        count_step ++;
+        client.sendMsg(client.who_i_am+":"+"X:"+stepX+",Y:"+stepY);
+       // count_step ++;
 
-        player2.goTo(10,10);
+         int[]opponent_step =  client.getOpponentspet(count_step ++);
+
+         player2.goTo(opponent_step[0],opponent_step[1]);
 
         //  ------ супер ДИНАМИЧЕСКИЙ ЛАБИРИНТ
         // if(count_step == 10) {create(maze.getSize_x(),maze.getSize_y()); count_step =0; }
